@@ -3,19 +3,26 @@
 @tailwind utilities;
 
 
+
 .Block{
   width: 150px;
   height: 150px;
   border: 5px solid black;
    background-size: cover; 
      display: inline-block;
+     
 } 
 
 .m1{
-  background-image: url('Images/dot.png');
+  background-image: url('Images/dot.jpg');
 }
 
 .m2{
-  background-image: url('Images/cross.png');
+  background-image: url('Images/cross.jpg');
 
 }
+
+/* .winningCells {
+  background-color: yellow; 
+  background-image: none;
+} */
